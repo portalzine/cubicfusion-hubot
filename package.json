@@ -1,7 +1,19 @@
 {
-  "name": "@portalzine/cubicfusion-hubot"
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+  "name": "cubicfusion-hubot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cubicfusion.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "git://github.com:portalzine/cubicfusion-hubot.git"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/portalzine/cubicfusion-hubot.git"
+  },
+  "author": "portalZINe NMN - Alexander Gräf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/portalzine/cubicfusion-hubot/issues"
+  },
+  "homepage": "https://github.com/portalzine/cubicfusion-hubot#readme"
 }
