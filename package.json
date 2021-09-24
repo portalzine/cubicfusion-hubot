@@ -1,0 +1,7 @@
+{
+  "name": "@portalzine/cubicfusion-hubot"
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": "git://github.com:portalzine/cubicfusion-hubot.git"
+}
