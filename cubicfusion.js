@@ -23,7 +23,7 @@
 
 
  return robot.hear(/hello (.*)/i, function(res) {
-      return res.http('https://portalzine.de/hubot.php').header('Accept', 'application/json').get()(function(err, httpRes, body) {
+      return res.http('https://portalzine.de/rocket.php').header('Accept', 'application/json').get()(function(err, httpRes, body) {
    var data;
       data = JSON.parse(body);
         return res.send(res.match[1]+"- Got back " + data.hello);
