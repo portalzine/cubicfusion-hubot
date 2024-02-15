@@ -1,0 +1,48 @@
+{
+  "_from": "@portalzine/cubicfusion-hubot",
+  "_id": "@portalzine/cubicfusion-hubot@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-ac7sAf56fM4a4ml9ml09zYlGGE7JvCt2bHvOPwaEQiUa0kxTATGtUvOLSI8Vt9zAzrNQ1Q5Kq2cj4Z/Rts4UrA==",
+  "_location": "/@portalzine/cubicfusion-hubot",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@portalzine/cubicfusion-hubot",
+    "name": "@portalzine/cubicfusion-hubot",
+    "escapedName": "@portalzine%2fcubicfusion-hubot",
+    "scope": "@portalzine",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://npm.pkg.github.com/download/@portalzine/cubicfusion-hubot/1.0.0/a57b4b24722c9f9b37e94884f5c5ab20d70c4fd7fd3d9e9cc143976490f098d6",
+  "_shasum": "e3a0320db08b2c7fae2a9ef47b7c6e87bfa2e34e",
+  "_spec": "@portalzine/cubicfusion-hubot",
+  "_where": "/usr/home/portaltv/public_apps/rocket.chat.hubot",
+  "author": {
+    "name": "portalZINE NMN - Alexander Graef"
+  },
+  "bugs": {
+    "url": "https://github.com/portalzine/cubicfusion-hubot/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "",
+  "homepage": "https://github.com/portalzine/cubicfusion-hubot#readme",
+  "license": "ISC",
+  "main": "cubicfusion.js",
+  "name": "@portalzine/cubicfusion-hubot",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/portalzine/cubicfusion-hubot.git"
+  },
+  "scripts": {
+    "test": "cubicfusion.js"
+  },
+  "version": "1.0.0"
+}
