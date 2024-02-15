@@ -1,41 +1,14 @@
-/*
-# Description:
-#   Rodent Motivation
-#
-#   Set the environment variable HUBOT_SHIP_EXTRA_SQUIRRELS (to anything)
-#   for additional motivation
-#
-# Dependencies:
-#   None
-#
-# Configuration:
-#   HUBOT_SHIP_EXTRA_SQUIRRELS
-#
-# Commands:
-#   ship it - Display a motivation squirrel
-#
-# Author:
-#   maddox
-*/
-(function() {
-  module.exports = function(robot) {
+// .mjs
+export default async robot => {
+robot.hear(/badger/i, async res => {
+res.send(`Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS`)
+}
 
+robot.respond(/open the pod bay doors/i, async res => {
+res.reply(`I'm afraid I can't let you do that.`)
+}
 
-
- return robot.hear(/hello (.*)/i, function(res) {
-      return res.http('https://portalzine.de/rocket.php').header('Accept', 'application/json').get()(function(err, httpRes, body) {
-   var data;
-      data = JSON.parse(body);
-        return res.send(res.match[1]+"- Got back " + data.hello);
-      });
-    });
-
-        robot.respond(/open the pod bay doors/i, function(res) {
-      return res.reply("I'm afraid I can't let you do that.");
-    });
-    return robot.hear(/I like pie/i, function(res) {
-      return res.emote("makes a freshly baked pie");
-    });
-  };
-
-}).call(this);
+robot.hear(/I like pie/i, async res => {
+res.emote('makes a freshly baked pie')
+}
+}
